@@ -19,13 +19,19 @@ Clone repositori ini ke komputer lokal Anda:
 
 ```bash
 git clone https://github.com/hexarin/teatx.git
-
+```
+```bash
 cd teatx
-
+```
+```bash
 npm install
+```
+## CATATAN
 
 - Perbarui file .env dengan alamat smart contract token TEA di TOKEN_ADDRESS , set banyaknya tx di NUM_TX , set banyaknya token yg akan di kirim di AMOUNT, 
 
 - Jalankan skrip dengan perintah berikut:
 
+```bash
 node index.js
+```
